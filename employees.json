@@ -1,0 +1,30 @@
+[
+    {
+        "EmployeeID": 1001,
+        "FirstName": "John",
+        "LastName": "Smith",
+        "Department": "IT",
+        "Salary": 75000
+    },
+    {
+        "EmployeeID": 1002,
+        "FirstName": "Mary",
+        "LastName": "Johnson",
+        "Department": "Finance",
+        "Salary": 82000
+    },
+    {
+        "EmployeeID": 1003,
+        "FirstName": "David",
+        "LastName": "Williams",
+        "Department": "HR",
+        "Salary": 68000
+    },
+    {
+        "EmployeeID": 1004,
+        "FirstName": "Susan",
+        "LastName": "Brown",
+        "Department": "IT",
+        "Salary": 79000
+    }
+]

@@ -1,0 +1,88 @@
+{
+    "CompanyID": 1,
+    "CompanyName": "ABC Technology",
+    "Location": {
+        "City": "Houston",
+        "State": "Texas",
+        "Country": "USA"
+    },
+    "Departments": [
+        {
+            "DepartmentID": 10,
+            "DepartmentName": "IT",
+            "Manager": {
+                "EmployeeID": 1001,
+                "FirstName": "John",
+                "LastName": "Smith"
+            },
+            "Employees": [
+                {
+                    "EmployeeID": 1001,
+                    "FirstName": "John",
+                    "LastName": "Smith",
+                    "Title": "IT Manager",
+                    "Salary": 95000,
+                    "Projects": [
+                        {
+                            "ProjectID": 10001,
+                            "ProjectName": "Cloud Migration",
+                            "Hours": 120
+                        },
+                        {
+                            "ProjectID": 10002,
+                            "ProjectName": "Database Upgrade",
+                            "Hours": 80
+                        }
+                    ]
+                },
+                {
+                    "EmployeeID": 1002,
+                    "FirstName": "Mary",
+                    "LastName": "Johnson",
+                    "Title": "Data Engineer",
+                    "Salary": 85000,
+                    "Projects": [
+                        {
+                            "ProjectID": 10001,
+                            "ProjectName": "Cloud Migration",
+                            "Hours": 150
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DepartmentID": 20,
+            "DepartmentName": "Finance",
+            "Manager": {
+                "EmployeeID": 2001,
+                "FirstName": "David",
+                "LastName": "Williams"
+            },
+            "Employees": [
+                {
+                    "EmployeeID": 2001,
+                    "FirstName": "David",
+                    "LastName": "Williams",
+                    "Title": "Finance Manager",
+                    "Salary": 98000,
+                    "Projects": [
+                        {
+                            "ProjectID": 20001,
+                            "ProjectName": "Financial System",
+                            "Hours": 100
+                        }
+                    ]
+                },
+                {
+                    "EmployeeID": 2002,
+                    "FirstName": "Susan",
+                    "LastName": "Brown",
+                    "Title": "Financial Analyst",
+                    "Salary": 72000,
+                    "Projects": []
+                }
+            ]
+        }
+    ]
+}
